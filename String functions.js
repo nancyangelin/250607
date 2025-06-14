@@ -13,16 +13,13 @@ function func(){
 }
 func()
 
-// //Boolean to String using String(),  Date, Length
-// function boo(){
-//     let x = Boolean(0);
-//     let y = Boolean(1);
-//     let z = Date();
-//     let w = "Apple"
-//     console.log(x+" "+y)
-//     console.log(String(z))
-//     console.log(w.length)
-// }
+//concatenation
+let str1 = "abc";
+let str2 = "def";
+let concat1 = str1 + str2;
+console.log(concat1);
+let concat2 = `${str1}${str2}`
+console.log(concat2);
 
 
 
